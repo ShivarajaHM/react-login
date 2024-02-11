@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import image from './react-node.jpg';
 
 const Login = (props) => {
     const [email, setEmail] = useState("")
@@ -13,7 +14,7 @@ const Login = (props) => {
         // You'll update this function later...
     }
 
-    return <div className={"mainContainer"}>
+    return <div style={{ backgroundImage: 'url(' + image + ')', backgroundSize: 'auto' }} className={"mainContainer"}>
         <div className={"titleContainer"}>
             <div>Login</div>
         </div>

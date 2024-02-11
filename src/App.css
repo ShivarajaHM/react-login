@@ -47,6 +47,8 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: aqua;
+  /* background-image: image('/home/shivraj/Desktop/login-app/public/react-node.jpg'); */
 }
 
 .titleContainer {
